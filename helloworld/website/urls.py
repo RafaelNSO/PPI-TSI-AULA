@@ -31,8 +31,8 @@ urlpatterns = [
         name='deleta_funcionario'),
 
     path(
-    'funcionario/cadastrar/',
-    views.FuncionarioCreateView.as_view(),
-    name='cadastra_funcionario')
+        'funcionario/cadastrar/',
+        views.FuncionarioCreateView.as_view(),
+        name='cadastra_funcionario'),
     
 ]
